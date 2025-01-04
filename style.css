@@ -397,6 +397,24 @@ main{
 }
 /* profile ends here */
 
+/* contact start here  */
+.contact__section{
+    min-height: 52vh;
+
+}
+.contact-container{
+    margin-top: 5rem;
+}
+.contact-address{
+    flex: 1;
+    gap:2rem;
+    flex-direction: column;
+}
+.contact__map{
+    width: 80%;
+}
+/* contact ends here */
+
 /* main ends here */
 
 /* footer start here */
@@ -439,6 +457,19 @@ main{
         grid-template-columns: repeat(2,minmax(0,1fr));
     }
     .cart__items.cart__pymant{
+        width:90%;
+    }
+    .contact-address{
+        width:100%;
+    }
+    .form,.form-control{
+        width:100%;
+    }
+    .form-control input,textarea{
+        width:80%;
+
+    }
+    .register .card,.login .card{
         width:90%;
     }
 }
