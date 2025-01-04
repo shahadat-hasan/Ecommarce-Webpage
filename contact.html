@@ -58,7 +58,30 @@
     </nav>
     <!--navbar ends here-->
     <main>
-        <h2>Contact Page</h2>
+        <section class="contact__section">
+            <h2 class="section-title text-center">
+                Contact Us
+            </h2>
+            <div class="contact-container flex-center">
+                <form action="" class="form card">
+                    <div class="form-control flex-center">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required autocomplete="name">
+                    </div>
+                    <div class="form-control flex-center">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" required autocomplete="email">
+                    </div>
+                    <div class="form-control flex-center">
+                        <label for="about">About</label>
+                        <textarea name="about" id="about"></textarea>
+                    </div>
+                    <div class="form-control flex-center form-btn-field">
+                        <button type="button"class="btn contact-btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
     <!--footer starts here-->
     <footer class="footer flex-space-around">
