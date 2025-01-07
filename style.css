@@ -133,7 +133,7 @@ nav{
 .header{
     padding:4rem 0;
     height:80vh;
-    background: url(../image/banner.jpg) no-repeat center;
+    background: url(./image/banner.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
 }
